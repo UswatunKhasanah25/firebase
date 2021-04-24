@@ -8,7 +8,7 @@ class FirstScreen extends StatelessWidget {
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
-          gradient: LinearGradient(
+          gradient: LinearGradient( 
             begin: Alignment.topRight,
             end: Alignment.bottomLeft,
             colors: [Colors.blue[100], Colors.blue[400]],
